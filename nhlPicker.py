@@ -52,19 +52,22 @@ if (webUrl.getcode() == 200):
 
 	teams = sorted(teams, key=lambda team: (team.pointPercentage, -team.leagueRank))
 
-	i = 0
+	if (len(teams) != len(odds)):
+		print('Mismatch this script must be out of date')
+	else:
+		i = 0
 
-	for team in teams:
-		team.index = i
-		team.pick1 = odds[i]
-		i += 1
+		for team in teams:
+			team.index = i
+			team.pick1 = odds[i]
+			i += 1
 
-	for team in teams:
-		team.calculate2()
+		for team in teams:
+			team.calculate2()
 
-	for team in teams:
-		team.calculate3()
-		team.calculateNotTop3()
-		team.display()
+		for team in teams:
+			team.calculate3()
+			team.calculateNotTop3()
+			team.display()
 else:
 	print('Could not get data.')
