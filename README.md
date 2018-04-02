@@ -26,10 +26,10 @@ Not Top 3 - 0.670604952122
 3rd - 0.0110664924107
 Not Top 3 - 0.967791617235
 
-### 2017 Draft And Beyond
-With the Vegas Golden Knights entering the league things got screwy, after the new odds are published for this upcoming draft I shall update the code.
-
+### Upcoming Drafts
 It is assumed that if (read as when *cough Seattle cough*) the the league expands further this will have to be updated again.
+
+It is possible the the league modifies its rules for odd distribution.
 
 ## Disclaimer
 All data provided by and belongs to nhl.com. This software was developed for non-commerical use and under the following [license](LICENSE).
