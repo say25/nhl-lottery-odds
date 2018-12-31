@@ -1,7 +1,10 @@
 # nhl-lottery-odds
+
 Odds of teams winning a great pick.
 
 ## Sample Output - NHL 2016 Draft Lottery
+
+```markdown
 1. Toronto Maple Leafs - 69
 1st - 0.2
 2nd - 0.174858009098
@@ -20,16 +23,18 @@ Not Top 3 - 0.670604952122
 
 ...
 
-14\. Boston Bruins - 93
+14. Boston Bruins - 93
 1st - 0.01
 2nd - 0.0111418903539
 3rd - 0.0110664924107
 Not Top 3 - 0.967791617235
+```
 
-### Upcoming Drafts
-It is assumed that if (read as when *cough Seattle cough*) the the league expands further this will have to be updated again.
+### Future / Upcoming Drafts
 
-It is possible the the league modifies its rules for odd distribution.
+- When Seattle joins the league for the 2021 draft, this project will need to be updated.
+- It is possible the the league modifies its rules for odd distribution.
 
 ## Disclaimer
-All data provided by and belongs to nhl.com. This software was developed for non-commerical use and under the following [license](LICENSE).
+
+All data provided by and belongs to nhl.com. This software was developed for non-commercial use and under the following [license](LICENSE).

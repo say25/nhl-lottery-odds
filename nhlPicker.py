@@ -1,6 +1,8 @@
 import urllib2
 import json
 
+# Top 16 Teams Make the playoffs
+# Odds - 31st,  30th,  29th,  28th,  27th,  26th,  25th, 24th, 23rd,  22nd, 21st,  20th, 19th,  18th, 17th
 odds = [0.185, 0.135, 0.115, 0.095, 0.085, 0.075, 0.065, 0.06, 0.05, 0.035, 0.03, 0.025, 0.02, 0.015, 0.01]
 
 class Team():
